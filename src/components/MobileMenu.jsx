@@ -160,10 +160,7 @@ export const MobileMenu = ({ isOpen, isClose }) => {
                 </ul>
               </nav>
               <div className="flex gap-5">
-                <a href="#" className="hover:animate-zoom">
-                  <BsGithub className="text-2xl" />
-                </a>
-                <a href="#" className="hover:animate-zoom">
+                <a href="https://de.linkedin.com/in/johannes-wolf-3b5702203" className="hover:animate-zoom">
                   <BsLinkedin className="text-2xl" />
                 </a>
               </div>
