@@ -18,7 +18,7 @@ export const Hero = () => {
                 </h1>
                 <ReactTyped
                   className="text-xl font-light uppercase leading-10"
-                  strings={["Surfen mit Stil", "Low-Budget-Webseiten"]}
+                  strings={["Surfen mit Stil"]}
                   typeSpeed={40}
                   backSpeed={50}
                   loop
