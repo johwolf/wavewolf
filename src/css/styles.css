@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*[class*="overflow-y-auto"] {
+  @apply scrollbar scrollbar-thumb-primary-600 scrollbar-thumb-rounded-lg scrollbar-w-2;
+}
+
+body {
+  @apply font-poppins text-[#273036] scrollbar scrollbar-thumb-primary-600 scrollbar-thumb-rounded-lg scrollbar-w-2;
+}
+
+.responsive-logo {
+  width: 100%; /* 50% der übergeordneten Containerbreite */
+  max-width: 1000px; /* Maximale Breite */
+  height: auto;
+}
+
+.nav a.active {
+  @apply rounded-full bg-primary-600 text-white;
+}
+
+.nav a.active {
+  @apply rounded-full bg-primary-600 text-white;
+}
+
+.szh-accordion__item-content {
+  transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.szh-accordion__item {
+  @apply my-5 select-none rounded-lg border shadow-[0_0.5rem_1rem_rgba(0,_0,_0,_0.15)] transition-all duration-300;
+}
+
+.szh-accordion__item-btn {
+  @apply w-full p-3 text-start;
+}
+
+.szh-accordion__item--expanded .szh-accordion__item-btn {
+  @apply text-primary-500;
+}
+
+.szh-accordion__item-btn .chevron {
+  @apply rotate-0 transition-all duration-300;
+}
+
+.szh-accordion__item--expanded .chevron {
+  @apply rotate-180;
+}
+
+.mixitup-control-active {
+  @apply rounded-full bg-primary-500 text-white shadow-[inset_0px_-4px_2px_rgb(0_0_0_/_25%)];
+}
+
+.react-rater-star.is-active {
+  @apply text-yellow-400;
+}
+
+.swiper {
+  @apply py-8;
+}
+
+.swiper-pagination-bullets {
+  @apply bottom-0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary-700 !important;
+}
+
+.swiper-pagination-bullet {
+  @apply h-[5px] w-5 rounded-sm bg-primary-600 opacity-100;
+}
