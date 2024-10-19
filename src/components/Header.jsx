@@ -110,7 +110,7 @@ export const Header = ({ onToggleMenu }) => {
        <div className="bg-blue-700 text-white text-center py-1">
           <p className="text-sm">
           50 % Rabatt für die ersten drei Projekte - Exklusives Startangebot!
-            <a href="#contact" className="underline ml-1">Jetzt anfragen!</a>
+          <HashLink smooth to="/#contact" className="underline ml-1">Jetzt anfragen!</HashLink>
           </p>
         </div>
     </header>
