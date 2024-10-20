@@ -19,9 +19,7 @@ export const About = () => {
           }}
         >
           <h1 className="mb-5 text-2xl font-bold uppercase">Meine Vision</h1>
-          <p>
-          Mein Ziel ist es, Unternehmen mit modernen Webseiten zu einem überzeugenden Auftritt und langfristiger Kundenzufriedenheit zu verhelfen. Als angehender Wirtschaftsinformatiker (B.Sc.) und Webdesigner biete ich Ihnen maßgeschneiderte Lösungen zu attraktiven Konditionen. 
-          </p>
+          <p> Mein Ziel ist es, Unternehmen mit modernen Webseiten zu einem überzeugenden Auftritt und langfristiger Kundenzufriedenheit zu verhelfen. Ich biete maßgeschneiderte Lösungen zu attraktiven Konditionen und habe mich auf lokale Unternehmen wie Restaurants, Handwerker und Einzelhändler spezialisiert. </p>
         </motion.div>
         <motion.div
           className="col-span-2 sm:justify-self-center lg:col-span-1"
@@ -50,7 +48,7 @@ export const About = () => {
             <ul className="flex flex-col gap-5">
               <li>
                 <span className="mb-2 font-bold uppercase">Standort</span>
-                <p>Gundelfingen i. Br.</p>
+                <p>Freiburg i. Br.</p>
               </li>
               <li>
                 <span className="mb-2 font-bold uppercase">Sprachen</span>
