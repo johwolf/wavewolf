@@ -35,6 +35,9 @@ export const Porfolio = () => {
   return (
     <section className="container mx-auto px-2 py-36 sm:px-4" id="portfolio">
       <h1 className="text-center text-2xl font-bold uppercase">Mein Portfolio</h1>
+      <p className="mb-16 text-center font-light">
+      Maßgeschneiderte Webdesign-Angebote für deine Ansprüche
+          </p>
       <p className="mb-16 text-center font-light"></p>
      {/*
       <ul className="mb-6 flex flex-wrap gap-x-5">
