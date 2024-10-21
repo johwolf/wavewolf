@@ -20,7 +20,7 @@ export const About = () => {
           }}
         >
           <h1 className="mb-5 text-2xl font-bold uppercase">Meine Vision</h1>
-          <p> Mein Ziel ist es, Unternehmen mit modernen Webseiten zu einem überzeugenden Auftritt und langfristiger Kundenzufriedenheit zu verhelfen. Ich biete maßgeschneiderte Lösungen zu attraktiven Konditionen und habe mich auf lokale Unternehmen wie Restaurants, Handwerker und Einzelhändler spezialisiert. </p>
+          <p> Mein Ziel ist es, Unternehmen mit modernen Webseiten zu einem überzeugenden Auftritt und langfristiger Kundenzufriedenheit zu verhelfen. Ich biete maßgeschneiderte Lösungen zu attraktiven Konditionen und habe mich auf KMUs im B2C-Bereich, wie Restaurants, Handwerksbetriebe und Einzelhändler, spezialisiert. </p>
         </motion.div>
         <motion.div
           className="col-span-2 sm:justify-self-center lg:col-span-1"

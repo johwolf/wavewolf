@@ -12,7 +12,7 @@ export const Skills = () => {
             Meine Skills
           </h1>
           <p className="mb-16 text-center font-light">
-          Ich entwerfe gerne schöne und skalierbare Webseiten
+          Ich entwerfe schöne und skalierbare Webseiten
           </p>
           <div className="flex flex-wrap justify-center gap-7">
             {skills.map((item, i) => (
